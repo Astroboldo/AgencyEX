@@ -152,7 +152,7 @@ $pagina = (isset($_GET['pagina']))? $_GET['pagina'] : 1;
 					<li>
 						<?php
 						if($pagina_anterior != 0){ ?>
-							<a href="testePaginacao.php?pagina=<?php echo $pagina_anterior; ?>" aria-label="Previous">
+							<a href="models.php?pagina=<?php echo $pagina_anterior; ?>" aria-label="Previous">
 								<span aria-hidden="true">&laquo;</span>
 							</a>
 						<?php }else{ ?>
@@ -162,12 +162,12 @@ $pagina = (isset($_GET['pagina']))? $_GET['pagina'] : 1;
 					<?php 
 					//Apresentar a paginacao
 					for($i = 1; $i < $num_pagina + 1; $i++){ ?>
-						<li><a href="testePaginacao.php?pagina=<?php echo $i; ?>"><?php echo $i; ?></a></li>
+						<li><a href="models.php?pagina=<?php echo $i; ?>"><?php echo $i; ?></a></li>
 					<?php } ?>
 					<li>
 						<?php
 						if($pagina_posterior <= $num_pagina){ ?>
-							<a href="testePaginacao.php?pagina=<?php echo $pagina_posterior; ?>" aria-label="Previous">
+							<a href="models.php?pagina=<?php echo $pagina_posterior; ?>" aria-label="Previous">
 								<span aria-hidden="true">&raquo;</span>
 							</a>
 						<?php }else{ ?>
