@@ -1,10 +1,12 @@
 <?php
-    $nomeArquivo = "Luciana (1).jpg";
-    $path = "painel/imagens/94163/Luciana (1).jpg";
-	$altura = "550";
-	$largura = "500";
-	echo "Altura pretendida: $altura - largura pretendida: $largura <br>";
-	
+    
+    
+    
+            $nomeArquivo = "Luciana (1).jpg";
+            $path = "painel/imagens/94163/Luciana (1).jpg";
+            $altura = "550";
+            $largura = "500";
+            
 			$imagem_temporaria = imagecreatefromjpeg($path);
 			
 			$largura_original = imagesx($imagem_temporaria);
