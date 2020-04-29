@@ -466,9 +466,7 @@
 								<span class="highlight">@AgencyExclusiveOficial</span>
 							</h2>
 							<div class="row">
-						<!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
-						<iframe src="//lightwidget.com/widgets/b98a1030212251fd985ccf5bbcf2060b.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;">
-						</iframe>
+						<!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="https://cdn.lightwidget.com/widgets/b98a1030212251fd985ccf5bbcf2060b.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
 							</div>
 							<!-- INICIO DO FORMULARIO DE CADASTRO
 							
